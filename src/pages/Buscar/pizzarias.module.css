@@ -1,0 +1,90 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.banner_Pizzerias {
+    width: 900px;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+    border-radius: .5rem;
+}
+
+.banner_Text{
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #fff;
+    margin-top: -9rem;
+    padding-left: 1rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .7);
+}
+
+.app_Store {
+    position: relative;
+    padding: 2px;
+    padding-left: 1rem;
+    top: 3rem;
+}
+
+.app_Google {
+    position: relative;
+    width: 119.662px;
+    height: 40px;
+    top: 3rem;
+}
+
+.Cardapio {
+    color: #D70606;
+    font: bold;
+    font-size: 25px;
+    position: relative;
+    top: 1rem;
+    margin-bottom: 5.5rem;
+}
+
+.div_Container{
+    display: flex;
+    flex-direction: arrow;
+    margin-right: .5rem;
+    position: relative;
+    top: -4.5rem;
+    align-content: space-between;
+}
+
+.div_Container button {
+    border-radius: 1rem;
+    margin-right: .5rem;
+    border: none;
+    padding: .5rem;
+    background-color: white;
+    width: auto;
+    height: 20px;
+    margin-top: .2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_Container button:hover {
+    background-color: orange;
+}
+
+.div_Container p {
+    margin-right: .5rem;
+    border-radius: 1rem;
+    padding: .3rem;
+    font-size: 14px;
+}
+
+.div_Container p:hover {
+    background-color: orange;
+}
+
+.Populares {
+    color: #D70606;
+    font: bold;
+    font-size: 25px;
+    position: relative;
+    top: -4.5rem;
+}
